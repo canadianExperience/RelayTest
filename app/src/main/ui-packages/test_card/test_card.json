@@ -1,0 +1,66 @@
+{
+  "name": "test_card",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "DIOQdUcQGtIYwmpEh9agMi",
+    "node": "1:3",
+    "version": "2681307576"
+  },
+  "default": "Test card",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      }
+    ],
+    "modes": {
+      "Test card": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "12.0",
+            "tap-handler": "$onClick",
+            "is-structured": "false",
+            "background-color": "$background",
+            "clip-content": "false"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "background": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    },
+    "onClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Test card",
+      "size": {
+        "width": 350.0,
+        "height": 300.0
+      },
+      "parameters": {
+        "background": {
+          "alpha": "1.0",
+          "hue": "120.0",
+          "saturation": "0.004115226337448545",
+          "value": "0.9529411764705882"
+        }
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
